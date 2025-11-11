@@ -168,7 +168,6 @@
 
     </xacro:macro>
     
-    <!-- 가장 상위의 footprint -->
     <link name="base_footprint"/>
     <xacro:hopejr_arm_macro 
         prefix="" 
