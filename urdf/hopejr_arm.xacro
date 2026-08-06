@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="hopejr_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="$(find hopejr_arm_description)/urdf/hopejr_arm.urdf.xacro" />
+
+    <link name="base_footprint"/>
+    <xacro:hopejr_arm_macro
+        prefix=""
+        parent_link="base_footprint"
+        xyz="0 0 0"
+        rpy="0 ${pi} 0"
+    />
+
+</robot>
